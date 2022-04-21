@@ -1,0 +1,12 @@
+model_checkpoint_path: "ckpt-97706"
+all_model_checkpoint_paths: "ckpt-97314"
+all_model_checkpoint_paths: "ckpt-97412"
+all_model_checkpoint_paths: "ckpt-97510"
+all_model_checkpoint_paths: "ckpt-97608"
+all_model_checkpoint_paths: "ckpt-97706"
+all_model_checkpoint_timestamps: 1650536545.2308054
+all_model_checkpoint_timestamps: 1650536573.467881
+all_model_checkpoint_timestamps: 1650536601.6922998
+all_model_checkpoint_timestamps: 1650536629.900229
+all_model_checkpoint_timestamps: 1650536658.1107044
+last_preserved_timestamp: 1650508415.0565317
