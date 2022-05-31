@@ -5,42 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/../CONTRIBUTING.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/../LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colabs/distillation_self_training.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../colabs/distillation_self_training.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colabs/finetuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../colabs/finetuning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colabs/intriguing_properties/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../colabs/intriguing_properties/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colabs/intriguing_properties/digits_on_tf_flowers.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../colabs/intriguing_properties/digits_on_tf_flowers.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colabs/intriguing_properties/generalized_contrastive_loss.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../colabs/intriguing_properties/generalized_contrastive_loss.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colabs/intriguing_properties/randbits_mnist.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../colabs/intriguing_properties/randbits_mnist.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../colabs/load_and_inference.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../colabs/load_and_inference.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../data_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../data_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imagenet_subsets/10percent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../imagenet_subsets/10percent.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../imagenet_subsets/1percent.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../imagenet_subsets/1percent.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lars_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../lars_optimizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../model_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../model_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../objective.py" beforeDir="false" afterPath="$PROJECT_DIR$/../objective.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/colabs/distillation_self_training.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/colabs/distillation_self_training.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/colabs/finetuning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/colabs/finetuning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/colabs/imagenet_results.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/colabs/imagenet_results.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/colabs/load_and_inference.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/colabs/load_and_inference.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/data_util.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/data_util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/lars_optimizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/lars_optimizer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/metrics.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/metrics.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/objective.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/objective.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/resnet.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/resnet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objective.py" beforeDir="false" afterPath="$PROJECT_DIR$/objective.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +26,18 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/contextlib.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/tensorflow/python/distribute/distribute_lib.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/tensorflow/python/distribute/distribution_strategy_context.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/tensorflow/python/eager/context.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/tensorflow/python/framework/ops.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/AppData/Local/Programs/Python/Python310/Lib/site-packages/tensorflow/python/ops/variable_scope.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/model.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/objective.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/resnet.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/run.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -70,20 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/run.py" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunManager">
-    <configuration name="pretraing" type="PythonConfigurationType" factoryName="Python">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/GitHub/simclr/tf2_label/run.py&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Python.pretraing">
+    <configuration name="finetune" type="PythonConfigurationType" factoryName="Python">
+      <module name="tf2_label" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -94,10 +73,9 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="--train_mode=pretrain --train_batch_size=512 --train_epochs=1000 --learning_rate=1.0 --weight_decay=1e-4 --temperature=0.5 --dataset=cifar10 --image_size=32 --eval_split=test --resnet_depth=18 --use_blur=False --color_jitter_strength=0.5 --model_dir=/tmp/simclr_test --use_tpu=False" />
+      <option name="PARAMETERS" value="--mode=train_then_eval --train_mode=finetune --fine_tune_after_block=-1 --zero_init_logits_layer=True --global_bn=False --optimizer=momentum --learning_rate=0.1 --weight_decay=0.0 --train_epochs=100 --train_batch_size=512 --warmup_epochs=0 --dataset=cifar10 --image_size=32 --eval_split=test --resnet_depth=18 --model_dir=../../simclr_ckpt/tmp/simclr_test_ft --checkpoint=../../simclr_ckpt/tmp/simclr_test/ckpt-97706 --use_tpu=False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -105,6 +83,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pretraing" type="PythonConfigurationType" factoryName="Python">
+      <module name="tf2_label" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Ddail\AppData\Local\Programs\Python\Python310\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="--train_mode=pretrain --train_batch_size=512 --train_epochs=1000 --learning_rate=1.0 --weight_decay=1e-4 --temperature=0.5 --dataset=cifar10 --image_size=32 --eval_split=test --resnet_depth=18 --use_blur=False --color_jitter_strength=0.5 --model_dir=../../simclr_ckpt/tmp/simclr_test --use_tpu=False --lineareval_while_pretraining=True --mode=train_then_eval" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.pretraing" />
+      <item itemvalue="Python.finetune" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -126,41 +130,38 @@
       <workItem from="1649186833133" duration="568000" />
       <workItem from="1650465735605" duration="1866000" />
       <workItem from="1650564306394" duration="34000" />
+      <workItem from="1650564509498" duration="19181000" />
+      <workItem from="1650698309937" duration="2407000" />
+      <workItem from="1651008105549" duration="12069000" />
+      <workItem from="1651075260475" duration="8944000" />
+      <workItem from="1651172284319" duration="9551000" />
+      <workItem from="1651690332901" duration="4613000" />
+      <workItem from="1651724089126" duration="1417000" />
+      <workItem from="1651766069867" duration="479000" />
+      <workItem from="1651766628182" duration="613000" />
+      <workItem from="1652033283470" duration="2000" />
+      <workItem from="1652150406482" duration="1574000" />
+      <workItem from="1652319277050" duration="1941000" />
+      <workItem from="1652491439484" duration="1397000" />
+      <workItem from="1653280176226" duration="386000" />
+      <workItem from="1653322866802" duration="12532000" />
+      <workItem from="1653374523346" duration="26110000" />
+      <workItem from="1653515401913" duration="13592000" />
+      <workItem from="1653632919529" duration="1535000" />
+      <workItem from="1653882348731" duration="689000" />
+      <workItem from="1653963372821" duration="1261000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/objective.py</url>
-          <line>82</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/objective.py</url>
-          <line>84</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/objective.py</url>
-          <line>86</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/run.py</url>
-          <line>581</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/tf2$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1643178456360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/run_py$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1648099925528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/model_py$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1651085990261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/run_py$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1653632948622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/objective_py$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1653964226050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/resnet_py$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1647886230536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tf2$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1643178456360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/run_py$finetune.coverage" NAME="finetune Coverage Results" MODIFIED="1653663595217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
