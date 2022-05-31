@@ -482,7 +482,7 @@ def main(argv):
 
     checkpoint_steps = (
             FLAGS.checkpoint_steps or (FLAGS.checkpoint_epochs * epoch_steps))
-
+    '''
     # seperate gpu to 4
     gpus = tf.config.experimental.list_physical_devices('GPU')
     if gpus:
@@ -503,7 +503,7 @@ def main(argv):
         except RuntimeError as e:
             print(e)
             print("error in virtual device configuration")
-    ''''''
+    '''
     topology = None
     if FLAGS.use_tpu:
         if FLAGS.tpu_name:
