@@ -27,8 +27,8 @@ LARGE_NUM = 1e9
 def add_supervised_loss(labels, logits):
     """Compute mean supervised loss over local batch."""
     losses = tf.keras.losses.CategoricalCrossentropy(
-        from_logits=True, reduction=tf.keras.losses.Reduction.NONE)(labels,
-                                                                    logits)
+        from_logits=True, reduction=tf.keras.losses.Reduction.NONE)(labels,logits)
+    #losses = tf.nn.sigmoid_cross_entropy_with_logits(labels, logits)
     return tf.reduce_mean(losses)
 
 
@@ -119,7 +119,7 @@ def add_contrastive_loss(hidden,
         #lebal_left = tf.nn.softmax(masks)
         #lebal_right = tf.zeros_like(masks)
         #self_labels = tf.concat([lebal_left, lebal_right], axis=1)
-    #pos_mask = masks - self_masks
+    pos_mask = masks - self_masks
     #mul_buff = -pos_mask*2 + 1
 
     logits_aa = tf.matmul(hidden1, hidden1_large, transpose_b=True) / temperature
@@ -128,10 +128,10 @@ def add_contrastive_loss(hidden,
     logits_bb = logits_bb - masks * LARGE_NUM
     logits_ab = tf.matmul(hidden1, hidden2_large, transpose_b=True) / temperature
     #logits_ab = logits_ab*mul_buff + pos_mask # * LARGE_NUM
-    logits_ab = logits_ab - masks * LARGE_NUM
+    logits_ab = logits_ab - pos_mask * LARGE_NUM
     logits_ba = tf.matmul(hidden2, hidden1_large, transpose_b=True) / temperature
     #logits_ba = logits_ba*mul_buff + pos_mask # * LARGE_NUM
-    logits_ba = logits_ba - masks * LARGE_NUM
+    logits_ba = logits_ba - pos_mask * LARGE_NUM
 
     # sim_a = tf.matmul(two_batch_label, tf.concat([logits_ab, logits_aa], axis=1), transpose_b=True) / temperature
     # sim_b = tf.matmul(two_batch_label, tf.concat([logits_ba, logits_bb], axis=1), transpose_b=True) / temperature
