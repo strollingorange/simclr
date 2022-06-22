@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="change to ignore pos labels">
-      <change beforePath="$PROJECT_DIR$/../tf2/'/tmp/simclr_test_ft'/events.out.tfevents.1650500934.DESKTOP-ND3ULUA.12200.0.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/'/tmp/simclr_test_ft'/events.out.tfevents.1650500947.DESKTOP-ND3ULUA.26344.0.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objective.py" beforeDir="false" afterPath="$PROJECT_DIR$/objective.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +63,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.pretraing">
+  <component name="RunManager" selected="Python.finetune">
     <configuration name="finetune" type="PythonConfigurationType" factoryName="Python">
       <module name="tf2_label" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -76,7 +78,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="--mode=train_then_eval --train_mode=finetune --fine_tune_after_block=-1 --zero_init_logits_layer=True --global_bn=False --optimizer=momentum --learning_rate=0.1 --weight_decay=0.0 --train_epochs=1000 --train_batch_size=512 --warmup_epochs=0 --dataset=cifar10 --image_size=32 --eval_split=test --resnet_depth=18 --model_dir=../../simclr_ckpt/tmp/simclr_test_ft --checkpoint=../../simclr_ckpt/logs/cifar10_pos_neg_sigmoid/ckpt-97706 --use_tpu=False" />
+      <option name="PARAMETERS" value="--mode=train_then_eval --train_mode=finetune --fine_tune_after_block=-1 --zero_init_logits_layer=True --global_bn=False --optimizer=momentum --learning_rate=0.1 --weight_decay=0.0 --train_epochs=1000 --train_batch_size=512 --warmup_epochs=0 --dataset=cifar10 --image_size=32 --eval_split=test --resnet_depth=18 --model_dir=../../simclr_ckpt/tmp/simclr_tmp_test --checkpoint=../../simclr_ckpt/logs/cifar10_softmax_label/ckpt-97706 --use_tpu=False" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -159,6 +161,7 @@
       <workItem from="1654722117231" duration="5945000" />
       <workItem from="1654739454259" duration="1803000" />
       <workItem from="1654788433776" duration="27000" />
+      <workItem from="1655862675916" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="forgot to comment test code">
       <created>1653967479764</created>
@@ -219,6 +222,6 @@
     <SUITE FILE_PATH="coverage/objective_py$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1654748254404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/resnet_py$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1647886230536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tf2$pretraing.coverage" NAME="pretraing Coverage Results" MODIFIED="1643178456360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/run_py$finetune.coverage" NAME="finetune Coverage Results" MODIFIED="1653663595217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/run_py$finetune.coverage" NAME="finetune Coverage Results" MODIFIED="1655862826442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
