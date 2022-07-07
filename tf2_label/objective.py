@@ -121,7 +121,7 @@ def add_contrastive_loss(hidden,
         #self_labels = tf.concat([lebal_left, lebal_right], axis=1)
     pos_mask = masks - self_masks
     mul_buff = -pos_mask*2 + 1
-
+    #TODO: figure out if sigmoid negative part toward zero or any other better solutions
     logits_aa = tf.matmul(hidden1, hidden1_large, transpose_b=True) / temperature
     logits_aa = logits_aa - masks * LARGE_NUM
     logits_bb = tf.matmul(hidden2, hidden2_large, transpose_b=True) / temperature
@@ -142,12 +142,14 @@ def add_contrastive_loss(hidden,
     # only positive labels
     # sim_a = tf.matmul(mat_label, logits_ab, transpose_b=True) / temperature
     # sim_b = tf.matmul(mat_label, logits_ba, transpose_b=True) / temperature
-
+    # create a multi-label for sigmoid
+    neg_label = tf.zeros_like(masks)
+    multilabel = tf.concat([masks, neg_label], axis=1)
     # TODO: use teacher model loss for Knowledge Distillation
     loss_a = tf.nn.sigmoid_cross_entropy_with_logits(
-        self_labels, sim_a)
+        multilabel, sim_a)
     loss_b = tf.nn.sigmoid_cross_entropy_with_logits(
-        self_labels, sim_b)
+        multilabel, sim_b)
     loss = tf.reduce_mean(loss_a + loss_b)
 
     return loss, logits_ab, self_labels
