@@ -50,6 +50,7 @@ def add_contrastive_loss(hidden,
       The logits for contrastive prediction task.
       The labels for contrastive prediction task.
     """
+
     # Get (normalized) hidden1 and hidden2.
     if hidden_norm:
         hidden = tf.math.l2_normalize(hidden, -1)
@@ -145,11 +146,17 @@ def add_contrastive_loss(hidden,
     # create a multi-label for sigmoid
     neg_label = tf.zeros_like(masks)
     multilabel = tf.concat([masks, neg_label], axis=1)
-    # TODO: use teacher model loss for Knowledge Distillation
+    softlabel = tf.nn.softmax(multilabel)
+    '''
     loss_a = tf.nn.sigmoid_cross_entropy_with_logits(
         multilabel, sim_a)
     loss_b = tf.nn.sigmoid_cross_entropy_with_logits(
         multilabel, sim_b)
+    loss = tf.reduce_mean(loss_a + loss_b)'''
+    loss_a = tf.nn.softmax_cross_entropy_with_logits(
+        softlabel, sim_a)
+    loss_b = tf.nn.softmax_cross_entropy_with_logits(
+        softlabel, sim_b)
     loss = tf.reduce_mean(loss_a + loss_b)
 
     return loss, logits_ab, self_labels
