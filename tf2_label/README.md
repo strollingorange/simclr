@@ -172,3 +172,13 @@ You can also find image IDs of these subsets in `imagenet_subsets/`.
 
 ## Disclaimer
 This is not an official Google product.
+
+## Experiment Progress
+
+7.13
+tried run second time cifar100 on sigmoid method and org simclr method.
+The finetuning result on cifar10 largeloss is not very well. Retrain cifar10 large loss.
+
+7.14 
+TODO:
+find out large loss or sigmoid which is better and run on imagenet!
