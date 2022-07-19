@@ -50,7 +50,8 @@ def add_contrastive_loss(hidden,
       The logits for contrastive prediction task.
       The labels for contrastive prediction task.
     """
-
+    label_asy, _ = tf.split(labels, 2, 0)
+    label = tf.argmax(label_asy, axis=1)
     # Get (normalized) hidden1 and hidden2.
     if hidden_norm:
         hidden = tf.math.l2_normalize(hidden, -1)
@@ -63,7 +64,8 @@ def add_contrastive_loss(hidden,
         hidden2_large = tpu_cross_replica_concat(hidden2, strategy)
 
         # TODO: use mask to update all batches similar label as current one
-        label = tf.argmax(labels['labels'], axis=1) + 1
+
+        #label = tf.argmax(labels['labels'], axis=1) + 1
         y_large = tpu_cross_replica_concat(label, strategy)
         enlarged_batch_size = tf.shape(hidden1_large)[0]
         label = tf.cast(label, tf.float32)
@@ -88,7 +90,7 @@ def add_contrastive_loss(hidden,
         hidden2_large = hidden2
         self_labels = tf.one_hot(tf.range(batch_size), batch_size * 2)
         # trasform label to mat
-        label = tf.argmax(labels['labels'], axis=1) + 1  # shape [batch_size,]
+        #label = tf.argmax(labels['labels'], axis=1) + 1  # shape [batch_size,]
         label = tf.cast(label, tf.float32)
         y_h = tf.expand_dims(label, axis=0)
         y_v = tf.expand_dims(label, axis=1)
@@ -99,9 +101,6 @@ def add_contrastive_loss(hidden,
         masks = mat_label
         self_masks = tf.one_hot(tf.range(batch_size), batch_size)
 
-    pos_mask = masks - self_masks
-    mul_buff = -pos_mask*2 + 1
-    #TODO: figure out if sigmoid negative part toward zero or any other better solutions
     logits_aa = tf.matmul(hidden1, hidden1_large, transpose_b=True) / temperature
     logits_aa = logits_aa - masks * LARGE_NUM
     logits_bb = tf.matmul(hidden2, hidden2_large, transpose_b=True) / temperature
