@@ -670,9 +670,10 @@ def main(argv):
                     logging.info('Completed: %d / %d steps', cur_step, train_steps)
                     metrics.log_and_write_metrics_to_summary(all_metrics, cur_step)
                     '''# only use for finetune'''
-                    perform_evaluation(model, builder, eval_steps,
-                                       checkpoint_manager.latest_checkpoint, strategy,
-                                       topology)
+                    if FLAGS.train_mode == 'finetune':
+                        perform_evaluation(model, builder, eval_steps,
+                                           checkpoint_manager.latest_checkpoint, strategy,
+                                           topology)
 
                     tf.summary.scalar(
                         'learning_rate',

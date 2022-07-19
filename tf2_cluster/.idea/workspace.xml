@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="change to ignore pos labels">
-      <change beforePath="$PROJECT_DIR$/../tf2_label/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_label/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2_label/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_label/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2_label/objective.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_label/objective.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,7 @@
       <workItem from="1657859898762" duration="1344000" />
       <workItem from="1658076237941" duration="6535000" />
       <workItem from="1658095612838" duration="15000" />
-      <workItem from="1658183839704" duration="8880000" />
+      <workItem from="1658183839704" duration="9626000" />
     </task>
     <task id="LOCAL-00001" summary="forgot to comment test code">
       <created>1653967479764</created>
