@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2_cluster/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_cluster/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2_label/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_label/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +97,7 @@
       <workItem from="1655786361563" duration="1173000" />
       <workItem from="1655861951044" duration="710000" />
       <workItem from="1657432707639" duration="769000" />
+      <workItem from="1658428218991" duration="23000" />
     </task>
     <servers />
   </component>

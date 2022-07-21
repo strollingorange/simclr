@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="change to ignore pos labels">
+    <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="update only eval per epoch for finetuning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +73,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
-      <option name="PARAMETERS" value="--mode=train_then_eval --learning_rate_scaling=linear --train_mode=finetune --weight_decay=0 --fine_tune_after_block=-1 --zero_init_logits_layer=True --global_bn=False --optimizer=lars --learning_rate=0.01 --train_epochs=100 --train_batch_size=512 --warmup_epochs=0 --dataset=cifar10 --image_size=32 --eval_split=test --resnet_depth=18 --model_dir=../../simclr_ckpt/debug/debug_fineturning_cluster --checkpoint=../../simclr_ckpt/debug/debug_cluster_pretrain/ckpt-97706 --use_tpu=False" />
+      <option name="PARAMETERS" value="--mode=train_then_eval --learning_rate_scaling=linear --train_mode=finetune --weight_decay=0 --fine_tune_after_block=-1 --zero_init_logits_layer=True --global_bn=False --optimizer=lars --learning_rate=0.01 --train_epochs=100 --train_batch_size=512 --warmup_epochs=0 --dataset=cifar10 --image_size=32 --eval_split=test --resnet_depth=18 --model_dir=../../simclr_ckpt/debug/debug_fineturning_cluster --checkpoint=../../simclr_ckpt/debug/debug_cluster_pretrain/ckpt-97706 --use_tpu=False --keep_checkpoint_max=1" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -190,7 +189,7 @@
       <workItem from="1657859898762" duration="1344000" />
       <workItem from="1658076237941" duration="6535000" />
       <workItem from="1658095612838" duration="15000" />
-      <workItem from="1658183839704" duration="9626000" />
+      <workItem from="1658183839704" duration="10429000" />
     </task>
     <task id="LOCAL-00001" summary="forgot to comment test code">
       <created>1653967479764</created>
@@ -206,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654196002853</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update only eval per epoch for finetuning">
+      <created>1658268213275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658268213275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +232,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forgot to comment test code" />
     <MESSAGE value="change to ignore pos labels" />
-    <option name="LAST_COMMIT_MESSAGE" value="change to ignore pos labels" />
+    <MESSAGE value="update only eval per epoch for finetuning" />
+    <option name="LAST_COMMIT_MESSAGE" value="update only eval per epoch for finetuning" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
