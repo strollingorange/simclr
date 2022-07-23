@@ -113,12 +113,12 @@ def add_contrastive_loss(hidden,
     # sim_b = tf.matmul(two_batch_label, tf.concat([logits_ba, logits_bb], axis=1), transpose_b=True) / temperature
 
     loss_a = tf.nn.softmax_cross_entropy_with_logits(
-        labels, tf.concat([logits_ab, logits_aa], 1))
+        self_labels, tf.concat([logits_ab, logits_aa], 1))
     loss_b = tf.nn.softmax_cross_entropy_with_logits(
-        labels, tf.concat([logits_ba, logits_bb], 1))
+        self_labels, tf.concat([logits_ba, logits_bb], 1))
     loss = tf.reduce_mean(loss_a + loss_b)
 
-    return loss, logits_ab, labels
+    return loss, logits_ab, self_labels
 
 def tpu_cross_replica_concat(tensor, strategy=None):
     """Reduce a concatenation of the `tensor` across TPU cores.

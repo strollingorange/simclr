@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="change to ignore pos labels">
-      <change beforePath="$PROJECT_DIR$/../tf2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objective.py" beforeDir="false" afterPath="$PROJECT_DIR$/objective.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +190,7 @@
       <workItem from="1658076237941" duration="6535000" />
       <workItem from="1658095612838" duration="15000" />
       <workItem from="1658551435301" duration="142000" />
+      <workItem from="1658554080187" duration="144000" />
     </task>
     <task id="LOCAL-00001" summary="forgot to comment test code">
       <created>1653967479764</created>
