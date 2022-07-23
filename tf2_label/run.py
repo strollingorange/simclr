@@ -658,6 +658,7 @@ def main(argv):
             global_step = optimizer.iterations
             cur_step = global_step.numpy()
             iterator = iter(ds)
+            steps_per_epoch = train_steps / FLAGS.train_epochs
             while cur_step < train_steps:
                 # Calls to tf.summary.xyz lookup the summary writer resource which is
                 # set by the summary writer's context manager.
@@ -667,11 +668,13 @@ def main(argv):
                     checkpoint_manager.save(cur_step)
                     logging.info('Completed: %d / %d steps', cur_step, train_steps)
                     metrics.log_and_write_metrics_to_summary(all_metrics, cur_step)
-                    '''# only use for finetune'''
-                    if FLAGS.train_mode == 'finetune':
+                    '''# only use for finetune
+                    if FLAGS.train_mode == 'finetune':'''
+                    if cur_step > steps_per_epoch:
                         perform_evaluation(model, builder, eval_steps,
                                            checkpoint_manager.latest_checkpoint, strategy,
                                            topology)
+                        steps_per_epoch += steps_per_epoch
 
                     tf.summary.scalar(
                         'learning_rate',

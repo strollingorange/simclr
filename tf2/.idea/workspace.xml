@@ -7,6 +7,10 @@
     <list default="true" id="2a707f95-92b6-4fae-8c98-72a0cd30c2d8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2_cluster/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_cluster/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2_label/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_label/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2_neg/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_neg/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2_sigmoid/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_sigmoid/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +101,7 @@
       <workItem from="1657432707639" duration="769000" />
       <workItem from="1658428218991" duration="23000" />
       <workItem from="1658551154660" duration="186000" />
+      <workItem from="1658551660166" duration="720000" />
     </task>
     <servers />
   </component>
