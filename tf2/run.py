@@ -173,7 +173,7 @@ flags.DEFINE_string(
     'Name for eval.')
 
 flags.DEFINE_integer(
-    'keep_checkpoint_max', 5,
+    'keep_checkpoint_max', 1,
     'Maximum number of checkpoints to keep.')
 
 flags.DEFINE_integer(

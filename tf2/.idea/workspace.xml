@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_cluster/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_cluster/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_label/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_label/run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tf2_neg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_neg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_neg/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_neg/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_sigmoid/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_sigmoid/run.py" afterDir="false" />
     </list>
@@ -102,6 +103,7 @@
       <workItem from="1658428218991" duration="23000" />
       <workItem from="1658551154660" duration="186000" />
       <workItem from="1658551660166" duration="720000" />
+      <workItem from="1659651967374" duration="93000" />
     </task>
     <servers />
   </component>
