@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_cluster/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_cluster/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_label/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_label/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tf2_neg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_neg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_neg/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_neg/run.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tf2_sigmoid/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tf2_sigmoid/run.py" afterDir="false" />
     </list>
@@ -103,7 +102,7 @@
       <workItem from="1658428218991" duration="23000" />
       <workItem from="1658551154660" duration="186000" />
       <workItem from="1658551660166" duration="720000" />
-      <workItem from="1659651967374" duration="93000" />
+      <workItem from="1659651967374" duration="945000" />
     </task>
     <servers />
   </component>
@@ -130,17 +129,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/run.py</url>
-          <line>581</line>
+          <line>577</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/run.py</url>
-          <line>323</line>
+          <line>320</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/run.py</url>
-          <line>327</line>
+          <line>324</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
