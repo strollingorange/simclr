@@ -182,8 +182,3 @@ The finetuning result on cifar10 largeloss is not very well. Retrain cifar10 lar
 7.14 
 TODO:
 find out large loss or sigmoid which is better and run on imagenet!
-
-8.16 TODO:
-change to MoCo loss function or/and add memory bank for enhance the number of positive label
-
-rewrite the supclr by Pytorch
